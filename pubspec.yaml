@@ -1,0 +1,41 @@
+name: hackathon2022app
+description: Simple App with Alan integration sample
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  alan_voice: ^3.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/SVN-Poppins-Light.ttf
+          style: normal
+          weight: 100
+        - asset: assets/fonts/poppins/SVN-Poppins-Regular.ttf
+          style: normal
+          weight: 200
+        - asset: assets/fonts/poppins/SVN-Poppins-Medium.ttf
+          style: normal
+          weight: 300
+        - asset: assets/fonts/poppins/SVN-Poppins-SemiBold.ttf
+          style: normal
+          weight: 400
+        - asset: assets/fonts/poppins/SVN-Poppins-Bold.ttf
+          style: normal
+          weight: 500
+        - asset: assets/fonts/poppins/SVN-Poppins-Black.ttf
+          style: normal
+          weight: 600
+        
+ 
